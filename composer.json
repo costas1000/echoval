@@ -1,0 +1,22 @@
+{
+	"name": "utils/echoval",
+    "type": "library",
+    "description": "Echoes back.",
+    "keywords": ["echoval", "utils", "data"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Costas"
+        }
+    ],	
+	"autoload": {
+		"psr-4": {
+			"Utils\\":"src/",
+			"Utils2\\":"src/"
+		}
+	},
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "monolog/monolog": "^1.23"
+    }
+}
